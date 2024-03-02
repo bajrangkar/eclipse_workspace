@@ -1,0 +1,98 @@
+{
+	"info": {
+		"_postman_id": "c32b494a-fa32-45bf-a541-7610969f09c4",
+		"name": "telusko_rest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getAliens",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/demorest/webapi/aliens",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"demorest",
+						"webapi",
+						"aliens"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createAlien",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<alien>\r\n    <id>103</id>\r\n    <name>Chips</name>\r\n    <points>80</points>\r\n</alien>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/demorest/webapi/aliens/alien",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"demorest",
+						"webapi",
+						"aliens",
+						"alien"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAlien",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"accept": true
+				}
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/demorest/webapi/aliens/alien/102",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"demorest",
+						"webapi",
+						"aliens",
+						"alien",
+						"102"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
