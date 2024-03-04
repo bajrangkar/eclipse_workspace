@@ -1,0 +1,31 @@
+mosh.streams
+
+01 - Streams00Demo 		            Imperative Programming vs Declarative Programming
+   - Movie
+
+02 - Streams01Create
+
+03 - Streams02Mapping	            map() flatMap()
+
+04 - Streams03Filtering	            stream().filter()
+
+05 - Streams04Slicing               limit(), skip(), takeWhile(), dropWhile()
+
+06 - Streams05Sorting               sorted()
+
+07 - Streams06DistinctElements
+
+08 - Streams07PeekElements
+
+09 - Streams08Reducers
+
+10 - Streams09Collectors
+
+11 - Streams10GroupingBy
+
+12 - Streams11PartitioningBy
+
+13 - Streams12PrimitiveType
+
+
+
