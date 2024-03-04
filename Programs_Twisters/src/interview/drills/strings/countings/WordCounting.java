@@ -1,4 +1,4 @@
-package intervire.drills.strings.countings;
+package interview.drills.strings.countings;
 
 import java.util.Arrays;
 import java.util.LinkedHashMap;
