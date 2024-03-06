@@ -1,4 +1,4 @@
-package interview.drills;
+package interview.drills.sortObjects;
 
 public class Employee {
     String name;

@@ -1,4 +1,4 @@
-package interview.drills;
+package interview.drills.sortObjects;
 
 import java.util.ArrayList;
 //import java.util.Collections;
